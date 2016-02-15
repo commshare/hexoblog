@@ -1,3 +1,6 @@
+title: 搭建hexo博客
+---
+
 # github pages的hexo博客
 
 标签（空格分隔）： 未分类
@@ -53,6 +56,18 @@ hexo deploy 会把public目录上传到github上，前提是
 阿里云里CNMAE blog到commshare.github.io，此时，访问commshare.github.io会被github跳转到blog.ixiaomo.net，而blog.ixiaomo.net会被阿里云导入到github网站，github网站会按照CNAME文件找到为内部的commshare.github.io.
 
 
+
+## 6.部署主题
+ > 采用了著名的主题next 等后，发现配色暗淡，还是使用landscape，但又觉得不爽
+ >  1. [stone的修改](http://shijiajie.com/2015/08/29/hexo-theme-landscape-plus-optimize/)
+ >  2. 主题下面的config文件里头有推荐文章啥的，我改了下
+ >  3. 部署的时候记得clean和g，然后deploy，否则有些主题样式不正确。
+
+    hexo clean #删除public目录
+    hexo g ##生成
+    hexo server #调试
+    hexo s --debug #也是调试
+    hexo d #发布
 
 
 
