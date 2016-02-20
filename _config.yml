@@ -63,8 +63,8 @@ pagination_dir: page
 # Extensions
 ## Plugins: http://hexo.io/plugins/
 ## Themes: http://hexo.io/themes/
-####used to be landscape hexo-theme-material
-theme: landscape-plus
+####used to be landscape hexo-theme-material landscape-plus hexo-theme-freemind hexo-theme-wixo jacman
+theme: next
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
